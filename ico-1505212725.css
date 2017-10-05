@@ -2031,6 +2031,25 @@ header {
 	padding: 70px 30px;
 	width: 100%
 }
+.roadmap table{
+	border:1px solid #ddd;
+}
+.roadmap table thead th{
+	background-color: #f4fdfa;
+	text-align: center;
+}
+.roadmap table tbody td:last-child{
+	text-align: left;
+}
+.roadmap table .year{
+	color: #d4d4d4;
+}
+.roadmap table .diff:nth-child(2n-1){
+	background-color: #f4fdfa;
+}
+.roadmap table .diff:nth-child(2n){
+	background-color: #f0f9f6;
+}
 
 @media screen and (max-width: 730px) {
 	.roadmap {
@@ -3438,6 +3457,35 @@ footer {
 	100% {
 		transform-origin: top center;
 		transform: rotateX(0deg);
+	}
+}
+
+.text-responsive{
+	text-align: center;
+}
+@media (min-width: 1201px){
+	.text-responsive{
+		font-size:1.5vw;
+	}
+}
+@media (max-width: 1200px){
+	.text-responsive{
+		font-size:2vw;
+	}
+}
+@media (max-width: 991px){
+	.text-responsive{
+		font-size:2.5vw;
+	}
+}
+@media (max-width: 768px){
+	.text-responsive{
+		font-size:3vw;
+	}
+}
+@media (max-width: 481px){
+	.text-responsive{
+		font-size:3.5vw;
 	}
 }
 
